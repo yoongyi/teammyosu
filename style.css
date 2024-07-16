@@ -37,7 +37,7 @@ body {
 }
 .banner .text{
     position: absolute;
-    top: -300%;
+    top: -500%;
     left: 50%;
     transform: translate( -50%, -50% );
     font-family: 'Courier New', Courier, monospace;
