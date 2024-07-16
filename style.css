@@ -33,14 +33,19 @@ body {
 }
 .banner {
     position: relative;
-    margin-top: 400px;
+    top: -600px;
+
 }
 .banner .text{
     position: absolute;
+    top: -50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
     font-family: 'Courier New', Courier, monospace;
     color: white;
     border: 2px solid white;
     padding: 15px 50px;
+    font-size: 15px;
 }
 .banner a:hover {
     color: #333;
